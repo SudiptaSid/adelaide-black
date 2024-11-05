@@ -1,0 +1,373 @@
+/* ------------------------ 
+    Max Width 1280px 
+------------------------ */
+@media (max-width: 1280px) {
+
+}
+/* ------------------------ 
+    Max Width 1080px 
+------------------------ */
+@media (max-width: 1080px) {
+
+}
+/* ------------------------ 
+    Max Width 1024px 
+------------------------ */
+@media (max-width: 1024px) {
+.service #service_slider .item ul li:first-child .gri_left {
+    padding:20px;
+}
+.service #service_slider .item ul li:first-child .gri_left h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.service #service_slider .item ul li:first-child .gri_left p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.events .nav-pills {
+    padding:10px;
+}
+.events .nav-pills li a {
+    padding:10px 5px;
+}
+.events .tab-content {
+    padding-left: 20px;
+}
+.about .grid_right {
+    padding-left: 0px;
+}
+.blog .tab-content {
+    margin-left: 0px;
+}
+.gallery .gal_item li .grid .overlay a {
+    margin-top:1em;
+}
+}
+/* ------------------------ 
+    Min Width 1000px 
+------------------------ */
+@media (min-width: 1000px) {
+
+}
+/* ------------------------ 
+    Max Width 966px 
+------------------------ */
+@media (max-width: 966px) {
+body {
+    font-size:14px;
+}
+p {
+    font-size:14px;
+}
+.menu .navbar .navbar-nav li a {
+    padding:10px 5px;
+    margin:0px 2px;
+}
+.menu .navbar .navbar-nav.nav_social {
+    margin:5px 0px;
+}
+.menu .navbar .navbar-nav.nav_social li a {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    line-height: 25px;
+}
+.heading,
+.service .heading,
+.blog .heading {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.service,
+.about,
+.events,
+.blog,
+.gallery,
+.contact {
+    padding: 50px 0px;
+}
+.service #service_slider .item ul li:last-child .grid_right {
+    overflow:hidden;
+}
+.service #service_slider .item ul li:last-child .grid_right img {
+    width:165%;
+}
+.events .nav-pills li a p {
+    line-height:18px;
+}
+.events .tab-content .tab-pane .links {
+    margin-bottom:0.3em;
+}
+.blog .tab-content .tab-pane .links {
+    margin-bottom:0.3em;
+}
+.blog .nav-pills li a {
+    padding:5px;
+}
+.blog .nav-pills li a p {
+    font-size: 14px;
+    line-height: 18px;
+}
+.contact .grid_right .social li a {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    line-height: 25px;
+}
+.contact .grid_right {
+    padding-left: 0;
+}
+.gallery .gal_item li .grid .overlay {
+    padding:20px;
+}
+.gallery .gal_item li .grid .overlay a {
+    font-size: 18px;
+}
+}
+/* ------------------------ 
+    Max Width 853px 
+------------------------ */
+@media (max-width: 853px) {
+.banner #banner_slider .item .caption .logo {
+    margin: 0px auto 50px auto;
+}
+}
+/* ------------------------ 
+    Max Width 800px 
+------------------------ */
+@media (max-width: 800px) {
+
+}
+/* ------------------------ 
+    Min Width 769px 
+------------------------ */
+@media (min-width: 769px) {
+.event_call {
+    display:none;
+}
+.blog_call {
+    display:none;
+}
+}
+/* ------------------------ 
+    Max Width 768px 
+------------------------ */
+@media (max-width: 768px) {
+.event_call {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #190d00;
+    color: #fff;
+    cursor: pointer;
+}
+.events .nav-pills {
+    position: absolute;
+    left: -110%;
+    z-index: 5;
+    width: 50%;
+    transition: 0.6s;
+    box-shadow: 1px 5px 7px 2px #333;
+}
+.events .nav-pills.even_listi_vi {
+    left:0;
+}
+.blog_call {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fff;
+    color: #190d00;
+    cursor: pointer;
+    z-index: 4;
+    position: relative;
+}
+.blog .nav-pills {
+    position: absolute;
+    left: -110%;
+    z-index:5;
+    width: 50%;
+    transition: 0.6s;
+    box-shadow: 1px 5px 7px 2px #333;
+    background-color: #545454;
+    padding: 10px;
+}
+.blog .nav-pills.blog_listi_vi {
+    left:0;
+}
+}
+/* ------------------------ 
+    Max Width 736px 
+------------------------ */
+@media (max-width: 736px) {
+.menu {
+    position: relative;
+}
+.menu {
+    background-color: rgba(0, 0, 0, 0.81);
+}
+.menu .navbar .navbar-nav.nav_social li {
+    display:inline-block;
+}
+.menu .navbar .navbar-nav li a {
+    display:inline-block;
+}
+#banner_slider .item .caption .logo {
+    margin: 0px auto 20px auto;
+}
+.about .grid_left {
+    max-width: 50%;
+    margin: 0px auto 20px auto;
+}
+.about .grid_right {
+    max-width: 50%;
+    margin: 0px auto;
+}
+.service #service_slider .item ul li:last-child .grid_right img {
+    width: 170%;
+}
+.events .tab-content {
+    margin-top: 1em;
+}
+.blog .tab-content {
+    margin-top: 1em;
+}
+.contact .grid_right {
+    padding-left: 0;
+    margin-top: 1em;
+}
+}
+/* ------------------------ 
+    Max Width 720px 
+------------------------ */
+@media (max-width: 720px) {
+
+}
+/* ------------------------ 
+    Max Width 690px 
+------------------------ */
+@media (max-width: 690px) {
+.service #service_slider .item ul li:last-child .grid_right img {
+    width: 190%;
+}
+.events .nav-pills {
+    width:60%;
+}
+.gallery .gal_item li {
+    flex-basis: calc(50% - 20px);
+}
+}
+/* ------------------------ 
+    Max Width 667px 
+------------------------ */
+@media (max-width: 667px) {
+.service #service_slider .item ul li:last-child .grid_right img {
+    width: 210%;
+}
+}
+/* ------------------------ 
+    Max Width 640px 
+------------------------ */
+@media (max-width: 640px) {
+.banner #banner_slider .item .caption {
+    top:20%;
+}
+}
+/* ------------------------ 
+    Max Width 603px 
+------------------------ */
+@media (max-width: 603px) {
+
+}
+/* ------------------------ 
+    Max Width 600px 
+------------------------ */
+@media (max-width: 600px) {
+
+}
+/* ------------------------ 
+    Max Width 568px 
+------------------------ */
+@media (max-width: 568px) {
+.events .nav-pills {
+    width: 70%;
+}
+.sl-wrapper .sl-navigation button.sl-prev {
+    left: 0;
+}
+.sl-wrapper .sl-navigation button.sl-next {
+    right: 0;
+}
+.sl-wrapper .sl-navigation button {
+    position: fixed;
+    top: 50%;
+    margin-top: -10px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    color: #fff;
+    display: block;
+    z-index: 15;
+    font-size: 30px;
+}
+}
+/* ------------------------ 
+    Max Width 533px 
+------------------------ */
+@media (max-width: 533px) {
+.service #service_slider .item ul {
+    display:block;
+}
+.service #service_slider .item ul li:last-child .grid_right img {
+    width: 100%;
+}
+}
+/* ------------------------ 
+    Max Width 480px 
+------------------------ */
+@media (max-width: 480px) {
+.banner #banner_slider .item .caption .logo {
+    margin: 20px auto 0px auto;
+}
+.about .grid_right {
+    max-width: 100%;
+    text-align: center;
+}
+}
+/* ------------------------ 
+    Max Width 414px 
+------------------------ */
+@media (max-width: 414px) {
+.gallery .gal_item li {
+    flex-basis: calc(100% - 0px);
+}
+.events .nav-pills {
+    width: 100%;
+}
+.blog .nav-pills {
+    width:80%;
+}
+}
+/* ------------------------ 
+    Max Width 375px 
+------------------------ */
+@media (max-width: 375px) {
+.about .grid_left {
+    max-width: 100%;
+}
+.events .nav-pills li {
+    flex-basis: calc(100%);
+}
+}
+/* ------------------------ 
+    Max Width 320px 
+------------------------ */
+@media (max-width: 320px) {
+
+}
